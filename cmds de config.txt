@@ -1,0 +1,15 @@
+comando 1:
+knex init
+
+comando 2:
+knex migrate:make create_table_users
+
+comando 3:
+knex migrate:make create_table_tasks
+
+comando 4:
+knex migrate:latest
+
+
+comando extra:
+knex migrate:rollback (exclui as tabelas criadas)
